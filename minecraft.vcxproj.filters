@@ -1,0 +1,294 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Файлы исходного кода">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Заголовочные файлы">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Файлы ресурсов">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Заголовочные файлы\3DModels">
+      <UniqueIdentifier>{ee2565e1-d6cd-404c-b432-13e1ed33d89a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Заголовочные файлы\3DModels\Swords">
+      <UniqueIdentifier>{5ca72dba-c661-4179-a0ac-b86a325aaf29}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Заголовочные файлы\Crafts">
+      <UniqueIdentifier>{e44df44e-3755-43ca-b7e3-4d8f6935f725}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Заголовочные файлы\Shaders">
+      <UniqueIdentifier>{9e9c9c99-14ac-4f9a-b31f-07e9ca72537c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Заголовочные файлы\Shaders\Interfaces">
+      <UniqueIdentifier>{33801a50-76c2-40b4-af71-4a588b2d588b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Заголовочные файлы\Control">
+      <UniqueIdentifier>{d2431389-1135-4c21-a678-1c803474959c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Заголовочные файлы\3DModels\Axes">
+      <UniqueIdentifier>{33e37574-b357-4be5-bf93-73c47c76ded9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Заголовочные файлы\3DModels\Pickaxes">
+      <UniqueIdentifier>{917740a3-9f53-4f65-b6f8-d1eaa312cb80}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Заголовочные файлы\Sockets">
+      <UniqueIdentifier>{4088fe3f-33d6-4f9c-afa2-48e30f10693f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Заголовочные файлы\3DModels\Steve">
+      <UniqueIdentifier>{72249f76-f48a-43b3-9cd5-0503ccb4e694}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="function.cpp">
+      <Filter>Заголовочные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="physics.cpp">
+      <Filter>Заголовочные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="Mesh.cpp">
+      <Filter>Заголовочные файлы\3DModels</Filter>
+    </ClCompile>
+    <ClCompile Include="Inhand.cpp">
+      <Filter>Заголовочные файлы\Shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="Shader.cpp">
+      <Filter>Заголовочные файлы\Shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="Skybox.cpp">
+      <Filter>Заголовочные файлы\Shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="Model.cpp">
+      <Filter>Заголовочные файлы\3DModels</Filter>
+    </ClCompile>
+    <ClCompile Include="playersCraft.cpp">
+      <Filter>Заголовочные файлы\Crafts</Filter>
+    </ClCompile>
+    <ClCompile Include="benchCraft.cpp">
+      <Filter>Заголовочные файлы\Crafts</Filter>
+    </ClCompile>
+    <ClCompile Include="DiamondSword.cpp">
+      <Filter>Заголовочные файлы\3DModels\Swords</Filter>
+    </ClCompile>
+    <ClCompile Include="Furnace.cpp">
+      <Filter>Заголовочные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="Cursor.cpp">
+      <Filter>Заголовочные файлы\Shaders\Interfaces</Filter>
+    </ClCompile>
+    <ClCompile Include="Inventory.cpp">
+      <Filter>Заголовочные файлы\Shaders\Interfaces</Filter>
+    </ClCompile>
+    <ClCompile Include="MinInventory.cpp">
+      <Filter>Заголовочные файлы\Shaders\Interfaces</Filter>
+    </ClCompile>
+    <ClCompile Include="OnCursor.cpp">
+      <Filter>Заголовочные файлы\Shaders\Interfaces</Filter>
+    </ClCompile>
+    <ClCompile Include="WorkBench.cpp">
+      <Filter>Заголовочные файлы\Shaders\Interfaces</Filter>
+    </ClCompile>
+    <ClCompile Include="FurnaceIf.cpp">
+      <Filter>Заголовочные файлы\Shaders\Interfaces</Filter>
+    </ClCompile>
+    <ClCompile Include="World.cpp">
+      <Filter>Заголовочные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Заголовочные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="Control.cpp">
+      <Filter>Заголовочные файлы\Control</Filter>
+    </ClCompile>
+    <ClCompile Include="ControlBench.cpp">
+      <Filter>Заголовочные файлы\Control</Filter>
+    </ClCompile>
+    <ClCompile Include="ControlInv.cpp">
+      <Filter>Заголовочные файлы\Control</Filter>
+    </ClCompile>
+    <ClCompile Include="ControlFurnace.cpp">
+      <Filter>Заголовочные файлы\Control</Filter>
+    </ClCompile>
+    <ClCompile Include="CommonModel.cpp">
+      <Filter>Заголовочные файлы\3DModels</Filter>
+    </ClCompile>
+    <ClCompile Include="DiamondAxe.cpp">
+      <Filter>Заголовочные файлы\3DModels\Axes</Filter>
+    </ClCompile>
+    <ClCompile Include="DiamondPickaxe.cpp">
+      <Filter>Заголовочные файлы\3DModels\Pickaxes</Filter>
+    </ClCompile>
+    <ClCompile Include="ControlWorld.cpp">
+      <Filter>Заголовочные файлы\Control</Filter>
+    </ClCompile>
+    <ClCompile Include="CommonPlayer.cpp">
+      <Filter>Заголовочные файлы\3DModels\Steve</Filter>
+    </ClCompile>
+    <ClCompile Include="Head.cpp">
+      <Filter>Заголовочные файлы\3DModels\Steve</Filter>
+    </ClCompile>
+    <ClCompile Include="CallBack.cpp">
+      <Filter>Заголовочные файлы\Control</Filter>
+    </ClCompile>
+    <ClCompile Include="SocketTCP.cpp">
+      <Filter>Заголовочные файлы\Sockets</Filter>
+    </ClCompile>
+    <ClCompile Include="SocketUDP.cpp">
+      <Filter>Заголовочные файлы\Sockets</Filter>
+    </ClCompile>
+    <ClCompile Include="Threads.cpp">
+      <Filter>Заголовочные файлы\Sockets</Filter>
+    </ClCompile>
+    <ClCompile Include="Body.cpp">
+      <Filter>Заголовочные файлы\3DModels\Steve</Filter>
+    </ClCompile>
+    <ClCompile Include="Leg.cpp">
+      <Filter>Заголовочные файлы\3DModels\Steve</Filter>
+    </ClCompile>
+    <ClCompile Include="DrawPlayer.cpp">
+      <Filter>Заголовочные файлы\3DModels\Steve</Filter>
+    </ClCompile>
+    <ClCompile Include="NetPlayer.cpp">
+      <Filter>Заголовочные файлы\3DModels\Steve</Filter>
+    </ClCompile>
+    <ClCompile Include="HPBar.cpp">
+      <Filter>Заголовочные файлы\Shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="Arm.cpp">
+      <Filter>Заголовочные файлы\3DModels\Steve</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Файлы исходного кода</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="functions.h">
+      <Filter>Заголовочные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="const.h">
+      <Filter>Заголовочные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="physics.h">
+      <Filter>Заголовочные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="Mesh.h">
+      <Filter>Заголовочные файлы\3DModels</Filter>
+    </ClInclude>
+    <ClInclude Include="Inhand.h">
+      <Filter>Заголовочные файлы\Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="Shader.h">
+      <Filter>Заголовочные файлы\Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="Skybox.h">
+      <Filter>Заголовочные файлы\Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="Model.h">
+      <Filter>Заголовочные файлы\3DModels</Filter>
+    </ClInclude>
+    <ClInclude Include="playersCraft.h">
+      <Filter>Заголовочные файлы\Crafts</Filter>
+    </ClInclude>
+    <ClInclude Include="benchCraft.h">
+      <Filter>Заголовочные файлы\Crafts</Filter>
+    </ClInclude>
+    <ClInclude Include="DiamondSword.h">
+      <Filter>Заголовочные файлы\3DModels\Swords</Filter>
+    </ClInclude>
+    <ClInclude Include="Furnace.h">
+      <Filter>Заголовочные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="Cursor.h">
+      <Filter>Заголовочные файлы\Shaders\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="Inventory.h">
+      <Filter>Заголовочные файлы\Shaders\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="MinInventory.h">
+      <Filter>Заголовочные файлы\Shaders\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="OnCursor.h">
+      <Filter>Заголовочные файлы\Shaders\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="WorkBench.h">
+      <Filter>Заголовочные файлы\Shaders\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="FurnaceIf.h">
+      <Filter>Заголовочные файлы\Shaders\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="World.h">
+      <Filter>Заголовочные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Заголовочные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="Control.h">
+      <Filter>Заголовочные файлы\Control</Filter>
+    </ClInclude>
+    <ClInclude Include="ControlBench.h">
+      <Filter>Заголовочные файлы\Control</Filter>
+    </ClInclude>
+    <ClInclude Include="ControlInv.h">
+      <Filter>Заголовочные файлы\Control</Filter>
+    </ClInclude>
+    <ClInclude Include="ControlFurnace.h">
+      <Filter>Заголовочные файлы\Control</Filter>
+    </ClInclude>
+    <ClInclude Include="CommonModel.h">
+      <Filter>Заголовочные файлы\3DModels</Filter>
+    </ClInclude>
+    <ClInclude Include="DiamondAxe.h">
+      <Filter>Заголовочные файлы\3DModels\Axes</Filter>
+    </ClInclude>
+    <ClInclude Include="DiamondPickaxe.h">
+      <Filter>Заголовочные файлы\3DModels\Pickaxes</Filter>
+    </ClInclude>
+    <ClInclude Include="ControlWorld.h">
+      <Filter>Заголовочные файлы\Control</Filter>
+    </ClInclude>
+    <ClInclude Include="CommonPlayer.h">
+      <Filter>Заголовочные файлы\3DModels\Steve</Filter>
+    </ClInclude>
+    <ClInclude Include="Head.h">
+      <Filter>Заголовочные файлы\3DModels\Steve</Filter>
+    </ClInclude>
+    <ClInclude Include="CallBack.h">
+      <Filter>Заголовочные файлы\Control</Filter>
+    </ClInclude>
+    <ClInclude Include="SocketTCP.h">
+      <Filter>Заголовочные файлы\Sockets</Filter>
+    </ClInclude>
+    <ClInclude Include="SocketUDP.h">
+      <Filter>Заголовочные файлы\Sockets</Filter>
+    </ClInclude>
+    <ClInclude Include="Threads.h">
+      <Filter>Заголовочные файлы\Sockets</Filter>
+    </ClInclude>
+    <ClInclude Include="Body.h">
+      <Filter>Заголовочные файлы\3DModels\Steve</Filter>
+    </ClInclude>
+    <ClInclude Include="Leg.h">
+      <Filter>Заголовочные файлы\3DModels\Steve</Filter>
+    </ClInclude>
+    <ClInclude Include="DrawPlayer.h">
+      <Filter>Заголовочные файлы\3DModels\Steve</Filter>
+    </ClInclude>
+    <ClInclude Include="NetPlayer.h">
+      <Filter>Заголовочные файлы\3DModels\Steve</Filter>
+    </ClInclude>
+    <ClInclude Include="HPBar.h">
+      <Filter>Заголовочные файлы\Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="Arm.h">
+      <Filter>Заголовочные файлы\3DModels\Steve</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram.cd" />
+  </ItemGroup>
+</Project>

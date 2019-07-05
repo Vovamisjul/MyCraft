@@ -1,0 +1,13 @@
+#version 330 core
+out vec4 FragColor;
+
+in vec3 TexCoords;
+
+uniform samplerCube ourtexture;
+
+void main()
+{    
+vec3 objectColor = texture(ourtexture, TexCoords).rgb;
+vec3 result = 1.1 * objectColor;
+FragColor = vec4(result, 1.0f);
+}
